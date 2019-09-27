@@ -2,13 +2,11 @@
     background-image: url("./delani-image/backgrounds/h_img.jpg");
     height: 100vh;
     color: #ffffff;
-}
-.home{
     text-align: center;
     text-transform: uppercase;
     padding-top: 15px;
-
-    }
+}
+   
  p { 
 font-size: 30px;
     
