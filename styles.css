@@ -1,3 +1,6 @@
+*{
+    overflow-x: hidden;
+}
 .home{
     background-image: url("./delani-image/backgrounds/h_img.jpg");
     height: 100vh;
@@ -22,4 +25,9 @@
  }
  h4{
      text-transform: uppercase;
+ }
+ h5{
+     text-align: center;
+     text-transform: uppercase;
+     font-display: bold;
  }
