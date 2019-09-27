@@ -18,4 +18,8 @@
      background-image: url("./delani-image/backgrounds/s_image.jpg");
      height: 30vh;
      text-align: center;
+     color: #ffffff;
+ }
+ h4{
+     text-transform: uppercase;
  }
