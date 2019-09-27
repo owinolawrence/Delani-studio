@@ -3,3 +3,18 @@
     height: 100vh;
     color: #ffffff;
 }
+.home{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+
+    }
+ p { 
+font-size: 30px;
+    
+ }
+ h3{
+     text-align: center;
+     text-transform: uppercase;  
+ }
+ 
