@@ -31,3 +31,11 @@
      text-transform: uppercase;
      font-display: bold;
  }
+ .contact{
+     background-image: url("./delani-image/backgrounds/c_image.jpg");
+     height: 50vh;
+     color: #ffffff;
+     text-align: center;
+     text-transform: uppercase;
+     padding-top: 15px;
+ }
