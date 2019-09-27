@@ -7,12 +7,15 @@
     padding-top: 15px;
 }
    
- p { 
-font-size: 30px;
-    
+ p{
+     text-align: center;
  }
  h3{
      text-align: center;
      text-transform: uppercase;  
  }
- 
+ .Services{
+     background-image: url("./delani-image/backgrounds/s_image.jpg");
+     height: 30vh;
+     text-align: center;
+ }
