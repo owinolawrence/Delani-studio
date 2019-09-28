@@ -84,7 +84,22 @@ h1{
     padding: 16px 32px;
     border: 1px solid wheat;
   }
+  input{
+      margin: 2rem ;
+      width: 200px;
+      
+  }
 
+  .comment input{
+    height: 10vh;
+ width: 45%; 
+background-color: transparent;
+margin-right:20%;
+margin-top: 30px;
+
+
+
+  }
 
 
 
