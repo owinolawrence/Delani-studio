@@ -9,6 +9,11 @@
     text-transform: uppercase;
     padding-top: 15px;
 }
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-display: bold;
+}
    
  p{
      text-align: center;
