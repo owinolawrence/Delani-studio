@@ -11,15 +11,16 @@ $(document).ready(function () {
 });
 $(document).ready(function (event) {
 
-  $("submit").click(function (event) {
+  $(".submit").click(function (event) {
+    {
+      alert("We have received your Message");
+    } {
+      alert("Thank you for reaching us");
+    }
   });
-  {
-    alert("We have received your Message");
-  } {
-    alert("Thank you for reaching us");
-  }
+ 
 
-  event.preventDefault();
+
 
 });
 
