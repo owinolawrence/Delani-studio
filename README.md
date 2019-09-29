@@ -1,6 +1,8 @@
 # DELANI-STUDIO
 
 #### Brief description of applicationor, 28/09/2019
+This project is to help software developer to work with them and then collaborate with them with the aim of design,develpoment and product management to create exceptional  of the user's needs and the product requiements.
+Also start each project by understanding user's business goal and help translate them into effective and elegant solutions
 
 #### By **{Owino Lawrence Odhiambo
 }
