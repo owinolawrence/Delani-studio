@@ -1,23 +1,22 @@
 # DELANI-STUDIO
 
 #### Brief description of applicationor, 28/09/2019
-This project is to help software developer to work with them and then collaborate with them with the aim of design,develpoment and product management to create exceptional  of the user's needs and the product requiements.
-Also start each project by understanding user's business goal and help translate them into effective and elegant solutions
-
+This project is basic website aimed at testing  students technical skills on Html, CSS, JavaScript JQuery and Bootstrap as part of being software developers.
 #### By **{Owino Lawrence Odhiambo
 }
 
 ## Installation
-clone and download (https://owinolawrence.github.io/Delani-studio/) to install delani-studio.
+clone this link  (https://owinolawrence.github.io/Delani-studio/) to install delani-studio.
 
- install Delani-studio
-Open the projct with Visual Studio Code as text editor
 
 ## Known Bugs
 No bugs
 
 ## Technologies Used
-HTML CSS and Javascript are the languages used to create this website.
+HTML
+CSS 
+JavaScript
+Jquery.
 
 ## Support and contact details
 Incase of any questions or issues please feel free to conduct me through email(owinolawrence21@gmail.com) 
