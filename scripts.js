@@ -7,22 +7,22 @@ $(document).ready(function () {
   });
   $(".image3").click(function () {
     $(".para3").toggle();
-  }); 
+  });
 });
-// $(document).ready(function (event) {
+$(document).ready(function (event) {
 
-//     $("submit").click(function (event) {
-//     });
-//   {
-//     alert("We have received your Message");
-//   }
-//   {
-//     alert("Thank you for reaching us");
-//   }
+  $("submit").click(function (event) {
+  });
+  {
+    alert("We have received your Message");
+  } {
+    alert("Thank you for reaching us");
+  }
 
-//   event.preventDefault();
+  event.preventDefault();
 
-// });
+});
+
 
 
 
