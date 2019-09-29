@@ -7,7 +7,7 @@ Also start each project by understanding user's business goal and help translate
 #### By **{Owino Lawrence Odhiambo
 }
 
-## Installationd
+## Installation
 clone and download (https://owinolawrence.github.io/Delani-studio/) to install delani-studio.
 
  install Delani-studio
