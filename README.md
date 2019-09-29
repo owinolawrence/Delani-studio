@@ -1,17 +1,16 @@
-# AKAN NAMES
+# DELANI-STUDIO
 
-#### Brief description of applicationor, 22/09/2019
+#### Brief description of applicationor, 28/09/2019
 
-Ghanian Culture name generater where a person is able to get his name and birthday after filling and submit.
 #### By **{Owino Lawrence Odhiambo
 }
 
 ## Installationd
-clone and download https://github.com/owinolawrence/Akan-name.git/) to install akan-names.
-```bash
-pip install Akan-name
+clone and download (https://owinolawrence.github.io/Delani-studio/) to install delani-studio.
+
+ install Delani-studio
 Open the projct with Visual Studio Code as text editor
-```
+
 ## Known Bugs
 No bugs
 
