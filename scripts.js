@@ -2,12 +2,12 @@ $(document).ready(function () {
   $("#image1").click(function () {
     $(".p1").toggle();
   });
-  $("img").click(function () {
-    $(".p2").toggle();
+  $(".image2").click(function () {
+    $(".para1").toggle();
   });
-  $("img").click(function () {
-    $(".p3").toggle();
-  }); a
+  $(".image3").click(function () {
+    $(".para3").toggle();
+  }); 
 });
 // $(document).ready(function (event) {
 
