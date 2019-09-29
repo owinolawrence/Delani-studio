@@ -9,28 +9,28 @@ $(document).ready(function () {
     $(".para3").toggle();
   });
   $(".image").hover(function() {
-    $("delani1").fadeTo("slow" ,0.3);
+    $("delani1").fadeTo("fast " ,0.6);
 });
 $(".image").hover(function() {
-  $("delani2").fadeTo("slow" ,0.3);
+  $("delani2").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani3").fadeTo("slow" ,0.3);
+  $("delani3").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani4").fadeTo("slow" ,0.3);
+  $("delani4").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani5").fadeTo("slow" ,0.3);
+  $("delani5").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani6").fadeTo("slow" ,0.3);
+  $("delani6").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani7").fadeTo("slow" ,0.3);
+  $("delani7").fadeTo("fast" ,0.6);
 });
 $(".image").hover(function() {
-  $("delani8").fadeTo("slow" ,0.3);
+  $("delani8").fadeTo("fast" ,0.6);
 });
 });
 
@@ -44,3 +44,29 @@ $(document).ready(function (event) {
     }
   });
  });
+
+ function input() {
+  var name =document.getElementById("name").value;
+
+    var email =document.getElementById("email").value;
+  
+      var comment=document.getElementById("comment").value;
+      if (document.getElementById("name").checked) {
+        var name = "Name";
+    }
+    if (document.getElementById("email").checked) {
+      var email = "Email";
+    
+    }
+     if(document.getElementById(comment).checked) {
+      var comment = "Comment";
+    }
+    if (name === name && email === email && comment === comment ) {
+        alert("We have received your Message");
+        alert("Thank you for reaching us");
+    }
+    else if  (name != name && email != email && comment != comment ){
+        alert("invalid data");
+    }
+
+    }
