@@ -45,6 +45,9 @@ h1{
      text-transform: uppercase;
      font-display: bold;
  }
+ .p1{
+     float: left;
+ }
  .contact{
      background-image: url("./delani-image/backgrounds/c_image.jpg");
      height: 55vh;
@@ -78,13 +81,13 @@ h1{
     text-align: center;
   }
   
-  .col-md-3:hover .image {
-    opacity: 0.3;
-  }
+    /* .col-md-3:hover .image {
+    opacity: 0.6;
+  }  */
   
-  .col-md-3:hover .middle {
+  .col-md-3:hover .middle { 
     opacity: 1;
-  }
+  } 
   
   .text {
     background-color: white;
@@ -92,6 +95,7 @@ h1{
     font-size: 16px;
     padding: 16px 32px;
     border: 1px solid wheat;
+    text-transform: uppercase;
   }
   input{
       margin: 2rem ;
@@ -100,7 +104,7 @@ h1{
   }
 
   .comment input{
-    height: 10vh;
+height: 10vh;
  width: 45%; 
 background-color: transparent;
 margin-right:20%;
