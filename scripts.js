@@ -8,65 +8,25 @@ $(document).ready(function () {
   $(".image3").click(function () {
     $(".para3").toggle();
   });
-  $(".image").hover(function() {
-    $("delani1").fadeTo("fast " ,0.6);
-});
-$(".image").hover(function() {
-  $("delani2").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani3").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani4").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani5").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani6").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani7").fadeTo("fast" ,0.6);
-});
-$(".image").hover(function() {
-  $("delani8").fadeTo("fast" ,0.6);
-});
+  $('.image').hover(function () {
+    $(this).animate({ opacity: '0.3' });
+  },
+    function () {
+      $(this).animate({ opacity: '0.3' });
+    });
 });
 
-$(document).ready(function (event) {
+$(document).ready(function () {
+  $("#submit").submit(function (event) {
+    var show1 = $("input:first").val();
+    var show2 = $("input#email").val();
+    if (show1 && show2 != '') {
+      alert("Thank you " + show1 + " your message is well received !");
+    } else {
+      alert('Invalid input');
+    }
+    event.preventDefault();
+  })
+});
 
-  $(".submit").click(function (event) {
-    {
-      alert("We have received your Message");
-    } {
-      alert("Thank you for reaching us");
-    }
-  });
- });
 
- function input() {
-  var name =document.getElementById("name").value;
-
-    var email =document.getElementById("email").value;
-  
-      var comment=document.getElementById("comment").value;
-      if (document.getElementById("name").checked) {
-        var name = "Name";
-    }
-    if (document.getElementById("email").checked) {
-      var email = "Email";
-    
-    }
-     if(document.getElementById(comment).checked) {
-      var comment = "Comment";
-    }
-    if (name === name && email === email && comment === comment ) {
-        alert("We have received your Message");
-        alert("Thank you for reaching us");
-    }
-    else if  (name != name && email != email && comment != comment ){
-        alert("invalid data");
-    }
-
-    }
