@@ -8,11 +8,11 @@ $(document).ready(function () {
   $(".image3").click(function () {
     $(".para3").toggle();
   });
-  $('.image').hover(function () {
-    $(this).animate({ opacity: '0.3' });
+  $(".image").hover(function () {
+    $(this).css({ opacity: "0.7", "transition":"2s" });
   },
     function () {
-      $(this).animate({ opacity: '0.3' });
+      $(this).css({ opacity: "0.7" ,"transition":"2s" });
     });
 });
 
