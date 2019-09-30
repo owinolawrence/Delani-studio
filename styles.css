@@ -1,3 +1,6 @@
+boby{
+   font-family:'Bitter', serif; 
+}
 *{
     overflow-x: hidden;
 }
@@ -56,20 +59,20 @@ h1{
      text-transform: uppercase;
      padding-top: 15px;
  }
+ .text{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    padding: 16px 32px;
+    border: 1px solid wheat;
+    text-transform: uppercase;
+ }
 
 .Icons{
     text-align: center;
-    margin-left: 480px;
+    margin-left: 600px;
 }
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
+
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -81,35 +84,32 @@ h1{
     text-align: center;
   }
   
-    /* .col-md-3:hover .image {
+    .col-md-3:hover .image {
     opacity: 0.6;
-  }  */
+  }  
   
   .col-md-3:hover .middle { 
     opacity: 1;
   } 
   
-  .text {
-    background-color: white;
-    color:black;
-    font-size: 16px;
-    padding: 16px 32px;
-    border: 1px solid wheat;
-    text-transform: uppercase;
-  }
+
   input{
       margin: 2rem ;
       width: 200px;
       
   }
+.email{
+    background-color: transparent;
+}
 
+  .name{
+    background-color: transparent;
+  }
   .comment input{
-height: 10vh;
- width: 45%; 
+height: 15vh;
+width: 50%; 
 background-color: transparent;
-margin-right:20%;
-margin-top: 30px;
-
+margin-right: 20%;
 
 
   }
